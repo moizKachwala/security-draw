@@ -9,7 +9,8 @@
     "first-release": "npx standard-version --commit-all --tag-prefix v --release-as 1.0.0 --infile CHANGELOG.md",
     "release": "npx standard-version --commit-all --tag-prefix v --infile CHANGELOG.md",
     "prepare": "husky install",
-    "extract-latest-change-log": "node scripts/extractLatestChangeLog.js"
+    "extract-latest-change-log": "node scripts/extractLatestChangeLog.js",
+    "heroku-prebuild": "npm config set ignore-scripts true"
   },
   "author": "Ice Lam",
   "license": "MIT",
