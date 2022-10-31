@@ -8,7 +8,6 @@
     "start": "webpack serve --open --config webpack/webpack.dev.conf.js",
     "first-release": "npx standard-version --commit-all --tag-prefix v --release-as 1.0.0 --infile CHANGELOG.md",
     "release": "npx standard-version --commit-all --tag-prefix v --infile CHANGELOG.md",
-    "prepare": "husky install",
     "extract-latest-change-log": "node scripts/extractLatestChangeLog.js",
     "heroku-prebuild": "npm config set ignore-scripts true"
   },
@@ -37,7 +36,6 @@
     "html-loader": "^4.1.0",
     "html-variables-plugin": "^1.0.0",
     "html-webpack-plugin": "^5.5.0",
-    "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "mini-css-extract-plugin": "^2.6.1",
     "node-sass": "^7.0.3",
